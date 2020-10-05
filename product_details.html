@@ -1,0 +1,89 @@
+<!DOCTYPE hmtl>
+<html>
+<head>
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Obvious Choice</title>
+</head>
+<body>
+    <div class="grid-container">
+        <!-- HEADER SECTION -->
+        <header class="header">
+            <div class="brand-name">
+                <button onclick="openMenu()" class="home-button">
+                    &#9776;
+                </button>
+                <a href="#">Obvious Choice</a>
+            </div>
+            <div class="nav-links">
+                <a href="#"><i class="fa fa-cart-plus"></i></a>
+                <a href="#"><i class="fa fa-user"></i></a>
+            </div>
+        </header>
+
+        <!--   SIDE MENU   -->
+        <aside class="side-menu">
+            <h3>Shopping Categories</h3>
+            <button onclick="closeMenu()" class="side-menu-close-button">X</button>
+            <ul>
+                <li>
+                    <a href="#">Pants</a>
+                </li>
+                <li>
+                    <a href="#">Accessories</a>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- MAIN SECTIOON  -->
+        <div class="main-section">
+            <div class="product-page">
+                <div class="detailed-product-image">
+                    <img src="images/img1.jpg" alt="product image">
+                </div>
+                <div class="detailed-product-info">
+                    <ul>
+                        <li>
+                            <div class="product-name">Product 1</div>
+                        </li>
+                        <li>
+                            <div class="product-price">R60</div>
+                        </li>
+                        <li>
+                            Description:
+                            <div class="product-description">Description</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="detailed-product-actions">
+                    <ul>
+                        <li>
+                            Price: 60
+                        </li>
+                        <li>
+                            Qty: 5
+                        </li>
+                        <li>
+                            <button>Add to Cart</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--  FOOTER SECTION  -->
+        <footer class="footer">
+            All rights reserved
+        </footer>
+    </div>
+    <script>
+    function openMenu(){
+        document.querySelector(".side-menu").classList.add("open")
+    }
+    function closeMenu(){
+        document.querySelector(".side-menu").classList.remove("open")
+    }
+    </script>
+</body>
+</html>

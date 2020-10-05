@@ -1,0 +1,123 @@
+<!DOCTYPE hmtl>
+<html>
+<head>
+    <!-- Add AwesomeFont -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>The Obvious Choice</title>
+</head>
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <div class="brand-name">
+                <button onclick="openMenu()" class="home-button">
+                    &#9776;
+                </button>
+                <a href="#">The Obvious Choice</a>
+            </div>
+            <div class="nav-links">
+                <div class="cart-button">
+                    <span>
+                        <i class="fa fa-cart-plus"></i>
+                    </span>
+                    <div class="cart-items">1</div>
+                </div>
+                <div>
+                    <span>
+                        <i class="fa fa-user">
+                            <div class="dropdown-content">
+                                <a href="#">Profile</a>
+                                <a href="#">Oders</a>
+                                <a href="#">Cart</a>
+                                <a href="#">Wish List</a>
+                                <a href="#">Help</a>
+                                <a href="#">Log Out</a>
+                            </div>
+                        </i>
+                    </span>
+                </div>
+            </div>
+        </header>
+        <aside class="side-menu">
+            <h2>Shopping Categories</h2>
+            <button onclick="closeMenu()" class="side-menu-close-button">X</button>
+            <ul class="side-menu-content">
+                <li>
+                    <a href="#">Men</a>
+                </li>
+                <li>
+                    <a href="#">Ladies</a>
+                </li>
+                <li>
+                    <a href="#">Jackets</a>
+                </li>
+                <li>
+                    <a href="#">Blankets</a>
+                </li>
+                <li>
+                    <a href="#">Shirts</a>
+                </li>
+                <li>
+                    <a href="#">T-Shirts</a>
+                </li>
+                <li>
+                    <a href="#">Pants</a>
+                </li>
+                <li>
+                    <a href="#">Accessories</a>
+                </li>
+            </ul>
+        </aside>
+        
+        <div class="main-section">
+            <div class="hero">
+                <div class="banner">
+                    <h1 class="banner-title">The Obvious Choice</h1>
+                    <button class="banner-button">Shop Now</button>
+                </div>
+            </div>
+            <div class="products-catelogue">
+                <ul class="products">
+                    <!-- dynamic product list generated in JS-->
+                </ul>
+            </div>
+        </div>
+        <footer class="footer">
+            All rights reserved
+        </footer>
+    </div>
+
+    <div class="cart-overlay">
+            <div class="cart">
+                <span class="close-cart">
+                    <i class="fa fa-window-close"></i>
+                </span>
+                <h2>Your Cart</h2>
+                <div class="cart-content">
+                    <div class="cart-item">
+                    <!-- dynamic cart fill by js-->
+                    </div>                
+                </div>
+                <div class="cart-footer">
+                    <div class="cart-totals">
+                        <div>
+                            <h3>Before Tax </h3>
+                            <h3>VAT(15%)</h3>
+                            <h3>Your Total </h3>
+                        </div>
+                        <div>
+                            <h3 class="cart-total-b4-tax">0</h3>
+                            <h3 class="cart-tax">0</h3>
+                            <h3 class="cart-total">0</h3>
+                        </div>
+                    </div>
+                    <div class="cart-buttons">
+                        <button class="clear-cart banner-button">Clear Cart</button>
+                        <button class="checkout-cart banner-button">Proceed to Checkout</button>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

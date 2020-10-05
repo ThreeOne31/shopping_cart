@@ -1,0 +1,156 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "Ladies Fashionable Jacket",
+          "price": 950.00,
+          "image": { "fields": { "file": { "url": "./images/01_ladies_jacket.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "Ladies Jacket Yellow",
+          "price": 880.00,
+          "image": { "fields": { "file": { "url": "./images/02_ladies_jackets.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "Ladies Jacket Green",
+          "price": 950.00,
+          "image": { "fields": { "file": { "url": "./images/03_ladies_jackets.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "Blue Seana-Marena",
+          "price": 800.00,
+          "image": { "fields": { "file": { "url": "./images/2_seanamarena_poone_green.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "fields": {
+          "title": "Spring Jackets",
+          "price": 650.00,
+          "image": { "fields": { "file": { "url": "./images/3_ladies_jacket.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "6" },
+        "fields": {
+          "title": "Ladies Jacket Blue",
+          "price": 999.99,
+          "image": { "fields": { "file": { "url": "./images/04_ladies_jacket.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "7" },
+        "fields": {
+          "title": "Ladies Jacket Blue",
+          "price": 700.00,
+          "image": { "fields": { "file": { "url": "./images/5_ladies_jacket.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "8" },
+        "fields": {
+          "title": "Man's Jacket",
+          "price": 700.00,
+          "image": { "fields": { "file": { "url": "./images/7_mens_jacket.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "9" },
+        "fields": {
+          "title": "Tradtional Blanket",
+          "price": 700.00,
+          "image": { "fields": { "file": { "url": "./images/8_seanamarena.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "11" },
+        "fields": {
+          "title": "Golf T-Shirt",
+          "price": 10.99,
+          "image": { "fields": { "file": { "url": "./images/product1.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "12" },
+        "fields": {
+          "title": "Blue Demin Shirt",
+          "price": 12.99,
+          "image": { "fields": { "file": { "url": "./images/product2.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "13" },
+        "fields": {
+          "title": "Men's Leather Jacket",
+          "price": 12.99,
+          "image": { "fields": { "file": { "url": "./images/product3_leather_jacket.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "14" },
+        "fields": {
+          "title": "Golf T-Shirt",
+          "price": 22.99,
+          "image": { "fields": { "file": { "url": "./images/product4_mens_golf_shirt.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "15" },
+        "fields": {
+          "title": "Golf T-Shirt",
+          "price": 88.99,
+          "image": { "fields": { "file": { "url": "./images/product5_men_golf_shirt.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "16" },
+        "fields": {
+          "title": "Men's Jacket",
+          "price": 32.99,
+          "image": { "fields": { "file": { "url": "./images/product6_men_jacket.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "17" },
+        "fields": {
+          "title": "Men's Jacket",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./images/product7_men_jacket.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "18" },
+        "fields": {
+          "title": "Men's Jacket",
+          "price": 33.99,
+          "image": { "fields": { "file": { "url": "./images/product8_men_jacket.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "19" },
+        "fields": {
+          "title": "Men's Jacket",
+          "price": 33.99,
+          "image": { "fields": { "file": { "url": "./images/product9_men_jacket.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "10" },
+        "fields": {
+          "title": "Mens's Formal Jacket",
+          "price": 10.99,
+          "image": { "fields": { "file": { "url": "./images/product10_men_formal_jacket.jpeg" } } }
+        }
+      }
+    ]
+}
