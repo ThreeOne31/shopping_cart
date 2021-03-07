@@ -1,0 +1,19 @@
+{
+  "name": "shopping_cart",
+  "version": "1.0.0",
+  "description": "This is emplementated using JavaScript, CSS and HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThreeOne31/shopping_cart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThreeOne31/shopping_cart/issues"
+  },
+  "homepage": "https://ThreeOne31.github.io/shopping_cart"
+}
